@@ -1,0 +1,15 @@
+package Atividade4;
+
+public class Velho extends Imovel {
+    
+    public Velho(String endereco, double preco) {
+        super(endereco, preco);
+    }
+    @Override
+    public String mostrar(){
+        double desconto=2000;
+        String msg= "O imovel é: R$ "+(preco-desconto)+"\nEndereço: "+endereco;
+        return msg;
+    }
+    
+}

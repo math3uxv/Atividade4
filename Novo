@@ -1,0 +1,17 @@
+package Atividade4;
+
+public class Novo extends Imovel {
+   
+
+    public Novo(String endereco, double preco) {
+        super(endereco, preco);
+    }
+    
+    @Override
+    public String mostrar(){
+        double adicional=2000;
+        String msg= "O imovel novo fica por: R$ "+(preco+adicional)+"\nEndereço: "+endereco;
+        return msg;
+    }
+    
+}

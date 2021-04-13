@@ -1,0 +1,26 @@
+package Atividade4;
+
+public class Principal {
+
+    public static void main(String[] args) {
+      
+        String endereco= "Angelim";
+        double preco= 150000.60;
+        
+        Imovel i1=new Imovel(endereco, preco);
+        System.out.println(i1.mostrar());
+        
+        System.out.println("----Novo----");
+        Novo n1=new Novo(endereco, preco);
+        System.out.println(n1.mostrar());
+        
+        System.out.println("----Velho-----");
+        Velho v1=new Velho(endereco, preco);
+        System.out.println(v1.mostrar());
+        
+        
+        
+        
+    }
+    
+}
